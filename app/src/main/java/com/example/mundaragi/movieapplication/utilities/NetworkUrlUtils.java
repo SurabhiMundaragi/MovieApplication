@@ -15,10 +15,9 @@ import java.util.Scanner;
 
 public final class NetworkUrlUtils {
 
-    private static final String TAG = NetworkUrlUtils.class.getSimpleName();
     private final static String MOVIE_LIST_URL = "http://api.themoviedb.org/3/movie/";
 
-    private final static String api_key = "05813f38cb415b04bf33f54377afeca2";
+    private final static String api_key = "";
 
     private final static String format = "json";
 
