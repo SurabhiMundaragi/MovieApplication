@@ -17,6 +17,7 @@ public final class NetworkUrlUtils {
 
     private final static String MOVIE_LIST_URL = "http://api.themoviedb.org/3/movie/";
 
+    //Should add api_key here
     private final static String api_key = "";
 
     private final static String format = "json";
