@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pop Movies</string>
+    <string name="detail_page_name">MovieDetail</string>
+</resources>
