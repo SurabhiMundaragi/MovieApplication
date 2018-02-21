@@ -77,7 +77,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapter
         final ParcelableResponse movieListObject = movieList.get(position);
         String baseURL = "http://image.tmdb.org/t/p/w780/";
         Log.d("surbhi", "onBindViewHolder: " + screenWidth);
-        Picasso.with(movieAdapterViewHolder.movieImageView.getContext()).load(baseURL + movieListObject.getPoster_path()).resize(screenWidth / 2, screenHeight / 2)
+        Picasso.with(movieAdapterViewHolder.movieImageView.getContext()).load(baseURL + movieListObject.getPoster_path()).placeholder(R.drawable.wait).error(R.drawable.no_image_available).resize(screenWidth / 2, screenHeight / 2)
                 .into(movieAdapterViewHolder.movieImageView);
     }
 
